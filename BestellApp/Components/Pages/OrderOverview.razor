@@ -1,0 +1,74 @@
+﻿@page "/Order"
+@rendermode InteractiveServer
+@using BestellApp
+@using Microsoft.EntityFrameworkCore
+@using System.Linq
+@inject BestellDbContext Bdb
+@inject BestellDbService BdbServ
+@inject User Usr
+
+<PageTitle>Bestellungen</PageTitle>
+
+<h3>Bestellung</h3>
+
+<div class="d-flex justify-content-center">
+    <NavLink
+        class="btn btn-secondary"
+        onmouseover="this.classList.replace('btn-secondary', 'btn-primary')"
+        onmouseout="this.classList.replace('btn-primary', 'btn-secondary')"
+        href="/OrderEvent" @onclick="StartOrder">
+        Neue Bestellung starten
+    </NavLink>
+</div>
+
+<div class="mt-xxl-5 mb-xxl-5 d-flex justify-content-center">
+    @if (FilteredOrders.Any())
+    {
+        <ul>
+            @foreach (var ord in FilteredOrders)
+            {
+                <li>Erstellt von @ord.Creator am @ord.CreationDate</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>Keine aktiven Bestellungen.</p>
+    }
+</div>
+
+<div class="d-flex justify-content-center" style="position: fixed; bottom: 20px;">
+    <NavLink class="btn btn-secondary full-height"
+             onmouseover="this.classList.replace('btn-secondary', 'btn-primary')"
+             onmouseout="this.classList.replace('btn-primary', 'btn-secondary')"
+             href="/PastOrders">
+             Ehemalige Bestellungen
+    </NavLink>
+</div>
+
+
+@code {
+    private List<Order> allOrders = new(); //Alle Bestellungen aus der Datenbank laden
+    private Order newOrder = new();
+
+    private IEnumerable<Order> FilteredOrders => allOrders.Where(o => o.Status != "finished");
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            allOrders = await Bdb.Orders.ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Fehler beim Laden der Bestellungen: {ex.Message}");
+        }
+
+    }
+
+    private async Task StartOrder()
+    {
+        var createdOrder = await BdbServ.StartOrderAsync(Usr);
+        allOrders.Add(newOrder);
+    }
+}

@@ -1,0 +1,55 @@
+﻿@page "/OrderEvent"
+@rendermode InteractiveServer
+@using BestellApp
+@using Microsoft.EntityFrameworkCore
+@inject BestellDbContext Bdb
+@inject BestellDbService BdbServ
+@inject User usr
+
+<h3 class="mb-4">Bestellvorgang</h3>
+
+<EditForm Model="@Bdb" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group mb-3">
+        <label for="customDesc" class="form-label">Beschreibung</label>
+        <InputTextArea id="customDesc" class="form-control" @bind-Value="customDesc"/>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="restaurant" class="form-label">Verfügbare Restaurants</label>
+        <select id="restaurant" class="form-select" @bind-value="selectedRestaurant" @bind-value:event="onselect">
+            @getRestaurants();
+        </select>
+    </div>
+    <div class="form-group mb-3">
+        <label for="time-input">Deadline: </label>
+        <input type="time" class="form-control" @bind-value="SelectedTime" id="time-input" />
+    </div>
+    <div>
+        <label></label>
+    </div>
+    <button type="submit" @onclick="SubmissionHandler">Bestätigen</button>
+</EditForm>
+
+@code {
+    private TimeOnly SelectedTime { get; set; } = TimeOnly.FromDateTime(DateTime.Now);
+    private string customDesc;
+    private string selectedRestaurant;
+
+    private void HandleValidSubmit()
+    {
+
+    }
+
+    private async Task SubmissionHandler()
+    {
+        //var submissionEvent = await BdbServ.SubmitOrderEvent();
+    }
+
+    private async Task getRestaurants()
+    {
+        await BdbServ.getRestaurantsAsync();
+    }
+}

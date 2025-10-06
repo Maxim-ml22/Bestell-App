@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\source\\BestellApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\components\\pages\\orderoverview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\components\\pages\\orderoverview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\components\\pages\\orderevent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\components\\pages\\orderevent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\components\\pages\\pastorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\components\\pages\\pastorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|c:\\source\\bestellapp\\bestellapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC69D8B6-A6B7-4279-98E1-988F173F2959}|BestellApp\\BestellApp.csproj|solutionrelative:bestellapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BestellApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BestellApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T09:14:42.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BestellApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BestellApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T09:11:17.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PastOrders.razor",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\PastOrders.razor",
+              "RelativeDocumentMoniker": "BestellApp\\Components\\Pages\\PastOrders.razor",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\PastOrders.razor",
+              "RelativeToolTip": "BestellApp\\Components\\Pages\\PastOrders.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T12:35:52.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderEvent.razor",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\OrderEvent.razor",
+              "RelativeDocumentMoniker": "BestellApp\\Components\\Pages\\OrderEvent.razor",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\OrderEvent.razor",
+              "RelativeToolTip": "BestellApp\\Components\\Pages\\OrderEvent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T14:29:54.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderOverview.razor",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\OrderOverview.razor",
+              "RelativeDocumentMoniker": "BestellApp\\Components\\Pages\\OrderOverview.razor",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Components\\Pages\\OrderOverview.razor",
+              "RelativeToolTip": "BestellApp\\Components\\Pages\\OrderOverview.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T09:27:42.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Model.cs",
+              "RelativeDocumentMoniker": "BestellApp\\Model.cs",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Model.cs",
+              "RelativeToolTip": "BestellApp\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:30:25.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Program.cs",
+              "RelativeDocumentMoniker": "BestellApp\\Program.cs",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Program.cs",
+              "RelativeToolTip": "BestellApp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:50:01.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\source\\BestellApp\\BestellApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BestellApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\source\\BestellApp\\BestellApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "BestellApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T15:53:21.019Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
